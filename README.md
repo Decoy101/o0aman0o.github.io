@@ -1,0 +1,1 @@
+# o0aman0o.github.io
