@@ -1,0 +1,36 @@
+body{
+    background-color: #0B1222;
+    border:1px solid #B2FCE9 ;
+}
+.main{
+    color:white;
+}
+.buttons{
+    color:#B2FCE9;
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    border: 1px solid #B2FCE9;
+    transition: transform 0.3s;
+}
+.buttons:hover{
+    transform: scale(1.2);
+}
+ul li{
+    color: white;
+    list-style: none;
+    margin-left:20px;
+    margin-right:20px;
+}
+li img{
+    filter: brightness(0) invert(1);
+    margin: 10px;
+    transform: scale(0.8);
+    transition: transform 0.5s;
+}
+li img:hover{
+    transform: scale(1);
+}
+
+.nav-menu ul li:hover{
+    color:#B2FCE9;
+}
