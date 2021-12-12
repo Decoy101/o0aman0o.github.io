@@ -1,7 +1,20 @@
-body{
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    /* height: 2000px; */
+    /* background: black; */
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
     background-color: #0B1222;
     border:1px solid #B2FCE9 ;
-}
+  }
 .main{
     color:white;
 }
@@ -33,4 +46,20 @@ li img:hover{
 
 .nav-menu ul li:hover{
     color:#B2FCE9;
+}
+a:link{
+    text-decoration: none;
+}
+
+@media(max-width:1300px){
+    .desktop-view{
+        display: none;
+    }
+    .nav-menu ul li{
+        display: none;
+    }
+   
+}
+@media(min-width:1300px){
+   
 }
